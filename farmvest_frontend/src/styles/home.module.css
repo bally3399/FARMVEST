@@ -1,0 +1,50 @@
+.lists{
+    @apply flex gap-[7px] items-center
+}
+.lists li, .hamburgerMenu li{
+    @apply outline-none text-white capitalize px-[7px] hover:cursor-pointer hidden md:flex
+}
+.hamburgerMenu{
+    @apply flex flex-col md:hidden h-[100vh] gap-[12px] transition-all transform
+    lg:hidden fixed top-0 right-0 bg-opacity-80 z-50 justify-center space-y-6;
+    background-color: #1c1919;
+}
+.footerIcons{
+    @apply flex justify-around items-center  w-full md:w-[30%]
+}
+.footerIcons img{
+    @apply w-[24px] h-[24px]
+}
+.footerIcons div{
+    @apply w-[24px] h-[24px] ;
+    color: #0b6003;
+}
+.footerIcons :nth-child(2){
+    @apply flex mx-[30px]
+}
+.company{
+    @apply flex flex-col items-start gap-[15px]
+}
+.company li{
+    @apply list-none text-[12px] cursor-pointer;
+    font-weight: 700;
+}
+.company p{
+    @apply text-[17px] capitalize;
+    font-weight:750;
+}
+.footerBottom{
+    @apply flex flex-col md:flex-row justify-center md:justify-between md:py-[20px] items-center gap-[10px] my-[10px]
+}
+.companyList{
+    @apply flex gap-[40px] py-[15px]
+}
+.store{
+    @apply items-start
+}
+.store > :nth-child(1){
+    @apply text-[10px]
+}
+.button{
+    @apply flex items-center justify-between border-[1px] rounded-md border-black p-[3px]
+}

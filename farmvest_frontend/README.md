@@ -1,0 +1,1 @@
+Farmvest is a Platform that connects Potential Investors to Farmers.
